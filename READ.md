@@ -140,20 +140,18 @@ By proactively retaining high-risk customers, telecom companies can significantl
 5. Predictive modeling can support revenue-driven decision making.
 
 ---
+## 🚀 How to Use This Project
 
-## 🚀 How to Run This Project
+1. Clone the repo  
+   `git clone https://github.com/ektashirsulla26-source/telco-churn-analytics.git`
 
-1. Clone the repository:
-git clone <your-repository-link>
+2. Create virtual environment  
+   ```bash
+   python -m venv venv
+   venv\Scripts\activate  # Windows
+   pip install -r requirements.txt
 
-2. Install dependencies:
-pip install -r requirements.txt
-
-3. Run notebooks in order:
-- 01. EDA_and_Feature_Engineering.ipynb
-- 02. Model_and_Evaluation.ipynb
-
----
+---   
 
 ## 📈 Future Improvements
 
