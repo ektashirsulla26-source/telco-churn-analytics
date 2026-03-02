@@ -19,21 +19,24 @@ This project aims to analyze customer behavior and build a machine learning mode
 ---
 
 ## 📂 Project Structure
+
+```
 telco-customer-churn/
 │
 ├── data/
-│ ├── raw/
-│ └── processed/
+│   ├── raw/
+│   └── processed/
 │
 ├── notebooks/
-│ ├── 01. EDA_and_Feature_Engineering.ipynb
-│ ├── 02. Model_and_Evaluation.ipynb
+│   ├── 01_EDA_and_Feature_Engineering.ipynb
+│   └── 02_Model_and_Evaluation.ipynb
 │
 ├── src/
-│ └── utils.py
+│   └── utils.py
 │
 ├── README.md
 └── requirements.txt
+```
 
 ---
 
