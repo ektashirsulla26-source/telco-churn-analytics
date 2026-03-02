@@ -20,24 +20,25 @@ This project aims to analyze customer behavior and build a machine learning mode
 
 ## 📂 Project Structure
 
+## 📂 Project Structure
+
 ```
 telco-customer-churn/
 │
-├── data/
-│   ├── raw/
-│   └── processed/
+├── data/                  # Raw and processed datasets
+│   ├── raw/               # Original dataset
+│   └── processed/         # Cleaned & transformed data
 │
-├── notebooks/
+├── notebooks/             # Jupyter notebooks
 │   ├── 01_EDA_and_Feature_Engineering.ipynb
 │   └── 02_Model_and_Evaluation.ipynb
 │
-├── src/
+├── src/                   # Reusable utility functions
 │   └── utils.py
 │
-├── README.md
-└── requirements.txt
+├── README.md              # Project documentation
+└── requirements.txt       # Project dependencies
 ```
-
 ---
 
 ## 🛠 Tools & Technologies Used
